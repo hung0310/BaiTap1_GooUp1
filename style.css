@@ -1,0 +1,110 @@
+.center {
+    display: flex;
+    padding: 63px 0px;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.content {
+    display: flex;
+    height: 565px;
+    align-items: center;
+    gap: 67px;
+}
+
+.text_content {
+    display: flex;
+    width: 426px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--first-text, #2D3748);
+    /* Second Headline */
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 57px; /* 123.913% */
+    letter-spacing: 0.2px;
+}
+
+.paragraphe {
+    display: flex;
+    padding: 30px 10px;
+    align-items: center;
+    gap: 10px;
+
+    color: var(--second-text, #A0AEC0);
+    /* Paragraphe */
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 150% */
+    letter-spacing: 0.2px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.find_out, .sign_up {
+    display: flex;
+    height: 52px;
+    padding: 20px 36px;
+    align-items: center;
+    border-radius: 39px;
+    border: 1px solid var(--primary, #4FD1C5);
+    /* shadow */
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+    /* Button */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+    letter-spacing: 0.2px;
+}
+
+.sign_up {
+    background: var(--secondary, #03D6F3);
+
+    color: var(--light-text, #FFF);
+}
+
+.find_out {
+    background: var(--light-background, #FFF);
+
+    color: var(--primary, #4FD1C5);
+}
+
+.image_content {
+    display: flex;
+    width: 767px;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgBT {
+    width: 762px;
+    height: 545px;
+
+    border-radius: 5px;
+    background: url(<imageBT1.jpg>) lightgray 50% / cover no-repeat;
+
+    /* shadow */
+    box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+}
